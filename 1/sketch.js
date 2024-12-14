@@ -5,7 +5,7 @@ let gradientColors = []; // Colors for the gradient background
 
 function preload() {
   // Load the song into the sketch
-  song = loadSound('/song/titan3minute.mp3'); // Rsong with3minute duration
+  song = loadSound('../song/titan3minute.mp3'); // Rsong with3minute duration
 }
 
 function setup() {

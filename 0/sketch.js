@@ -7,7 +7,7 @@ let playPauseButton; // Play/Pause button
 
 function preload() {
   // Load the song
-  song = loadSound('/song/titanic.mp3'); //1minute song
+  song = loadSound('../song/titanic.mp3'); //1minute song
 }
 
 function setup() {
