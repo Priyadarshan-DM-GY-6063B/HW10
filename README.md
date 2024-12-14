@@ -1,4 +1,4 @@
-# HW10A - Live Sound Visualization 🎶
+# HW10A - Live Sound Visualization
 
 ## Overview
 This project visualizes live audio from a 1-minute song using the **p5.sound library**. The visualization is dynamic and interactive, making it suitable for live performances or creative experiments.
@@ -24,14 +24,14 @@ This project visualizes live audio from a 1-minute song using the **p5.sound lib
   - **Volume (Amplitude)**: Controls the size of the pulsating circle and background color.
   - **Frequency Spectrum**: Determines the height of the frequency bars.
 
---
+---
 ## **Controls**:
    - **Play/Pause**: Click the center button to start or stop the song.
    - **Sensitivity Slider**: Adjust how responsive the visuals are.
 
 ---
 
-# HW10B - Static Visualization of a Song 🎶
+# HW10B - Static Visualization of a Song 
 
 ## Overview
 This project uses the **p5.sound library** to generate a static representation of a 3-minute song. The visualization is based on the song's amplitude peaks and includes creative visual elements to make it engaging and personal.
