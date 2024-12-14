@@ -32,8 +32,8 @@ function setup() {
 
 function draw() {
   // Update background color based on volume
-  let volume = amplitude.getLevel();
-  bgColor = map(volume, 0, 1, 0, 255);
+  let soundlvl = amplitude.getLevel();
+  bgColor = map(soundlvl, 0, 1, 0, 255);
   background(bgColor, 50, 150);
 
   // Update sensitivity from slider
@@ -43,7 +43,7 @@ function draw() {
   drawFrequencyBars();
 
   // Draw dynamic visuals based on volume
-  drawVolumeCircle(volume);
+  drawVolumeCircle(soundlvl);
 
   // Display information
   displayInfo();
@@ -66,8 +66,8 @@ function drawFrequencyBars() {
   }
 }
 
-function drawVolumeCircle(volume) {
-  let circleSize = map(volume * sensitivity / 50, 0, 1, 50, height / 2);
+function drawVolumeCircle(soundlvl) {
+  let circleSize = map(soundlvl * sensitivity / 50, 0, 1, 50, height / 2);
   fill(255, 100, 200, 150);
   noStroke();
   ellipse(width / 2, height / 2, circleSize);
